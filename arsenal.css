@@ -1,0 +1,60 @@
+/* 
+
+Project Name: Arsenal F.C.
+Client: Teófilo Bernardo Gradaschi da Costa
+Author: Stéfani Fochesatto
+Developed 
+*/
+
+body {
+	background: url('arsenal 2003-2004.jpeg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container {
+	background: #9C824A;
+	opacity: 0.9;
+	background-position: left-center; 
+	width: 430px;
+	padding: 2px;
+}
+
+h1 {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 45px;
+	text-align: center;
+	margin-top: 20px;
+  	margin-bottom: 10px;
+  	margin-right: 30px;
+  	margin-left: 30px
+}
+
+h2 {
+	font-family: Impact, Charcoal, sans-serif;
+	background: #023474;
+	color: white;
+	padding: 2px;
+	border-radius: 2px;
+	margin-left: 30px;
+	margin-right: 30px;
+	text-align: center;
+}
+
+p {
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-top: 30px;
+  	margin-bottom: 30px;
+  	margin-right: 30px;
+  	margin-left: 30px
+}
+
+a {
+	color: #023474;
+	text-decoration: none;
+}
